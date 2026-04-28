@@ -11,6 +11,14 @@
 └── examples/
 ```
 
+## 适用操作系统
+
+- macOS：直接支持
+- Linux：直接支持
+- Windows：不建议直接在 PowerShell 或 CMD 中运行；如需使用，建议通过 WSL 或 Git Bash 执行脚本
+
+项目中的打包脚本依赖 `bash`、`zip`、`cp` 和 `/tmp` 这类 Unix 风格环境。
+
 ## 用法
 
 以下命令都在项目根目录执行：
